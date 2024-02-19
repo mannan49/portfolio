@@ -10,11 +10,21 @@ import img5 from "../../assets/img5.jpg";
 const data = [
   {
     id: 1,
-    image: img1,
-    title: "Cocktails Site",
-    description: "Tech Stack: Redux Toolkit, Bootstrap",
-    github: "https://github.com/mannan49/redux_cocktail.git",
-    demo: "https://mannan49.github.io/redux_cocktail/",
+    image: img4,
+    title: "Quiz Mine Web App",
+    description:
+      "Built a quiz site for students of matric and intermediate contain login/signup functionality, user can select test of every chapter of Physics, Chemistry, Biology etc. and at the end result is displayed in the form of performance percentage. Tech Stack: React, React Hot Toast, Nivo Charts, CSS 3, Redux",
+    github: "https://github.com/mannan49/quizmine_user.git",
+    demo: "https://quizmine-user.vercel.app/login",
+  },
+  {
+    id: 4,
+    image: img4,
+    title: "Quiz Mine Dashboard",
+    description:
+      "For above quiz site, I also created the admin portal through which admin will create, read, update and delete MCQs and can control Quiz Site",
+    github: "https://github.com/mannan49/quizmine_dashboard.git",
+    demo: "https://quizmine-dashboard.vercel.app/login",
   },
   {
     id: 2,
@@ -32,15 +42,6 @@ const data = [
       "Mechanical Engineers have to iterate again and again to find suitable number of teeth of gears, so I write a code that will result all the possibilities of gear teeth for their requirements and they can easily choose according to market availabilit",
     github: "https://github.com/mannan49/gear_train.git",
     demo: "https://mannan49.github.io/gear_train/",
-  },
-  {
-    id: 4,
-    image: img4,
-    title: "Quiz Mine Web App",
-    description:
-      "Built a quiz site for students of matric and intermediate contain login/signup functionality, user can select test of every chapter of Physics, Chemistry, Biology etc. and at the end result is displayed in the form of performance percentage. Tech Stack: React, React Hot Toast, Nivo Charts, CSS 3, Redux",
-    github: "https://github.com/mannan49/quiz_mine.git",
-    demo: "https://mannan49.github.io/quiz_mine",
   },
 ];
 const Portfolio = () => {
