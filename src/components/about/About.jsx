@@ -1,8 +1,6 @@
 import React from "react";
 import "./About.css";
-import aboutImg from "../../assets/about-img.jpg";
 import { FaAward } from "react-icons/fa";
-import { FiUsers } from "react-icons/fi";
 import { VscFolderLibrary } from "react-icons/vsc";
 const About = () => {
   return (
@@ -13,7 +11,7 @@ const About = () => {
       <div className="container about_container">
         <div className="about_me">
           <div className="about_me-image">
-            <img src={aboutImg} alt="" />
+            <img src="https://res.cloudinary.com/dqmgf14ee/image/upload/v1727440139/portfolio/expnhzqoykd7wdx0zyrt.jpg" alt="" />
           </div>
         </div>
 
